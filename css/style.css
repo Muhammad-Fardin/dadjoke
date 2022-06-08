@@ -1,0 +1,60 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     background-color: rgb(22, 22, 22);
+     color: #E6FAFC;
+}
+
+section {
+     width: 100%;
+     min-height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.wrapper {
+     width: 90%;
+     max-width: 500px;
+     margin: 35vh auto;
+     height: 30%;
+     border-radius: 5px;
+     display: flex;
+     flex-direction: column;
+     background-color: rgb(44, 44, 44);
+     box-shadow: 1px 1px 50px rgba(0, 255, 255, 0.7);
+
+}
+
+.wrapper p {
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 2rem;
+     text-align: center;
+
+}
+
+.joke-parent {
+     padding: 50px;
+     text-align: center;
+
+}
+
+.button {
+
+     background-color: rgb(65, 64, 64);
+     font-weight: 500;
+     font-size: 14px;
+     color: #E6FAFC;
+     border: none;
+     width: fit-content;
+     padding: 10px;
+     text-align: center;
+     align-self: center;
+     margin: 5% 0;
+     border-radius: 10px;
+}

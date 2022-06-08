@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="description" content="Dad Jokes Generator to save your mood, unlimited jokes, comedy, puns, funny, lame, comedy"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- favicon -->
+     <link href="assets/icon.png" rel="icon">
+     <!-- custom css  -->
+     <link href="css/style.css" rel="stylesheet">
+     <title>Dad Jokeverse</title>
+</head>
+<body>
+     <!-- main section  -->
+     <section>
+          <!-- parent wrapper of joke wrapper  -->
+          <div class="wrapper">
+               <!-- joke wrapper  -->
+               <div class="joke-parent">
+                    <!-- empty paragraph tag joke insert by javascript throught api -->
+                    <p class="joke"></p>
+               </div>
+               <!-- button with onclick functionality to send request and get a new random joke  -->
+               <button class="button" onclick="getJoke()">Get A Dad Joke</button>
+          </div>
+     </section>
+
+<!-- custom javascript  -->
+<script src="js/script.js"></script>     
+</body>
+</html>
